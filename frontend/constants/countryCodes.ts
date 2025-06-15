@@ -121,22 +121,6 @@ const countryCodes: CountryCode[] = [
     minLength: 9,
     maxLength: 9
   },
-  { 
-    name: "Austria", 
-    code: "+43", 
-    flag: "🇦🇹",
-    format: "X XX XX XX XX",
-    minLength: 9,
-    maxLength: 9
-  },
-  { 
-    name: "Austria", 
-    code: "+43", 
-    flag: "🇦🇹",
-    format: "X XX XX XX XX",
-    minLength: 9,
-    maxLength: 9
-  },
 ];
 
 export const formatPhoneNumber = (text: string, countryCode: string): string => {
